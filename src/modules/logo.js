@@ -4,6 +4,7 @@ export default function createLogo() {
   const logoContainer = document.createElement('header');
   const logoRestaurant = document.createElement('h1');
   logoRestaurant.textContent = 'Restaurant';
+  logoRestaurant.classList.add('restaurant')
 
   const logoName = document.createElement('h1');
   logoName.textContent = 'PURE COVE';
