@@ -9,6 +9,7 @@ export default function createContact() {
   const content = document.getElementById('content');
   const map = document.createElement('img');
   map.src = mapImg;
+  map.alt = 'location of the restaurant'
   map.classList.add('map');
   content.appendChild(map);
 }
