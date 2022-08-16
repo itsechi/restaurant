@@ -70,15 +70,21 @@ header {
     font-weight: 400;
     color: $color-gold;
     line-height: 8rem;
+
+    @media (max-width: $breakpoint-medium) {
+      line-height: 5rem;
+    }
+    @media (max-width: $breakpoint-small) {
+      line-height: 3rem;
+    }
   }
 
   @media (max-width: $breakpoint-medium) {
     font-size: 3rem;
-    line-height: 3rem;
   }
 
   @media (max-width: $breakpoint-small) {
     font-size: 2rem;
-    line-height: 0.3rem;
+    
   }
 }
