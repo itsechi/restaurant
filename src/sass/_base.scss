@@ -1,6 +1,9 @@
 $color-bg: #1B191A;
 $color-gold: #CCAB5B;
 
+$breakpoint-medium: 56.25em;
+$breakpoint-small: 31.25em;
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -67,5 +70,15 @@ header {
     font-weight: 400;
     color: $color-gold;
     line-height: 8rem;
+  }
+
+  @media (max-width: $breakpoint-medium) {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  @media (max-width: $breakpoint-small) {
+    font-size: 2rem;
+    line-height: 0.3rem;
   }
 }
