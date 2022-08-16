@@ -1,3 +1,39 @@
+.contact-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-section {
+  text-align-last: left;
+  margin: 3rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+
+  & h2 {
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 1.5rem;
+  }
+
+  & button {
+    font-family: inherit;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    letter-spacing: 0.15em;
+    color: $color-gold;
+    background: none;
+    border: 2px solid $color-gold;
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-gold;
+      color: #000;
+    }
+  }
+}
+
 .map {
   border-radius: 50%;
   margin-top: 3rem;
