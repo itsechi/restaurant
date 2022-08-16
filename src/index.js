@@ -1,5 +1,6 @@
 import createHome from './pages/home';
 import createMenu from './pages/menu';
+import createContact from './pages/contact';
 import './sass/main.scss';
 const content = document.getElementById('content');
 
@@ -14,10 +15,10 @@ document.body.addEventListener('click', e => {
     createHome();
   }
   if (
-    e.target.id === 'menu' &&
+    e.target.id === 'contact' &&
     !e.target.parentNode.nextSibling.classList.contains('medium')
   ) {
     content.innerHTML = '';
-    createMenu();
+    createContact();
   } else return;
 });
