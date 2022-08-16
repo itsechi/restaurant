@@ -22,11 +22,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../imgs/bg.jpg */ "./src/imgs/bg.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ Object(function webpackMissingModule() { var e = new Error("Cannot find module '../../dist/imgs/bg.jpg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative;\n  top: 15%;\n  font-size: 5rem; }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 8rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 5rem; } }\n    @media (max-width: 31.25em) {\n      header .restaurant {\n        line-height: 3rem; } }\n  @media (max-width: 56.25em) {\n    header {\n      font-size: 3rem; } }\n  @media (max-width: 31.25em) {\n    header {\n      font-size: 2rem; } }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 31.25em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 31.25em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 31.25em) {\n      header .restaurant {\n        line-height: 3rem; } }\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -566,13 +566,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createLogo)
 /* harmony export */ });
-function createLogo() {
+function createLogo(size) {
   const content = document.getElementById('content');
 
   const logoContainer = document.createElement('header');
   const logoRestaurant = document.createElement('h1');
   logoRestaurant.textContent = 'Restaurant';
-  logoRestaurant.classList.add('restaurant')
+  logoRestaurant.classList.add('restaurant');
+  logoContainer.classList.add(size);
 
   const logoName = document.createElement('h1');
   logoName.textContent = 'PURE COVE';
@@ -635,11 +636,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 function createHome() {
   (0,_modules_nav__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  (0,_modules_logo__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  (0,_modules_logo__WEBPACK_IMPORTED_MODULE_1__["default"])('large');
 }
+
 
 /***/ }),
 
@@ -653,20 +654,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createMenu)
 /* harmony export */ });
+/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/nav */ "./src/modules/nav.js");
+/* harmony import */ var _modules_logo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/logo */ "./src/modules/logo.js");
+
+
+
 function createMenu() {
   const content = document.getElementById('content');
   content.innerHTML = '';
+  (0,_modules_nav__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  (0,_modules_logo__WEBPACK_IMPORTED_MODULE_1__["default"])('medium');
 }
 
-/***/ }),
-
-/***/ "./src/imgs/bg.jpg":
-/*!*************************!*\
-  !*** ./src/imgs/bg.jpg ***!
-  \*************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
 
 /***/ })
 
@@ -724,18 +723,6 @@ module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -750,26 +737,6 @@ module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -818,9 +785,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 (0,_pages_home__WEBPACK_IMPORTED_MODULE_0__["default"])();
 (0,_pages_menu__WEBPACK_IMPORTED_MODULE_1__["default"])();
+
 })();
 
 /******/ })()
