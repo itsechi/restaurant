@@ -53,7 +53,7 @@ nav {
     color: #fff;
     letter-spacing: 0.15em;
     cursor: pointer;
-    
+
     &:hover {
       color: $color-gold;
     }
@@ -62,29 +62,46 @@ nav {
 
 header {
   position: relative;
-  top: 15%;
-  font-size: 5rem;
+
+  &.large {
+    font-size: 5rem;
+    top: 15%;
+
+    @media (max-width: $breakpoint-medium) {
+      font-size: 3rem;
+    }
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 2rem;
+    }
+  }
+
+  &.medium {
+    font-size: 3rem;
+    top: 0;
+    margin-top: 3rem;
+
+    @media (max-width: $breakpoint-medium) {
+      font-size: 2rem;
+    }
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 1.5rem;
+    }
+  }
 
   & .restaurant {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
     color: $color-gold;
-    line-height: 8rem;
+    line-height: 5rem;
 
     @media (max-width: $breakpoint-medium) {
-      line-height: 5rem;
+      line-height: 4rem;
     }
+
     @media (max-width: $breakpoint-small) {
       line-height: 3rem;
     }
-  }
-
-  @media (max-width: $breakpoint-medium) {
-    font-size: 3rem;
-  }
-
-  @media (max-width: $breakpoint-small) {
-    font-size: 2rem;
-    
   }
 }
