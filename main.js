@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/main.scss":
@@ -7,7 +8,6 @@
   \*********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  min-height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative;\n  animation: fadeIn .5s; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 34.375em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 34.375em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 34.375em) {\n      header .restaurant {\n        line-height: 3rem; } }\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n.contact-main {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: fadeIn .5s; }\n  @media (max-width: 69.375em) {\n    .contact-main {\n      display: grid;\n      grid-template-columns: repeat(2, 1fr);\n      justify-items: center; } }\n\n.contact-section {\n  text-align-last: left;\n  margin: 3rem;\n  font-weight: 500;\n  font-size: 1.3rem;\n  grid-row: 1 / 2; }\n  @media (max-width: 69.375em) {\n    .contact-section {\n      margin: 1rem;\n      margin-top: 2rem; } }\n  @media (max-width: 34.375em) {\n    .contact-section {\n      font-size: 0.9rem; } }\n  @media (max-width: 21.875em) {\n    .contact-section {\n      font-size: 0.6rem;\n      margin: 0.4rem; } }\n  .contact-section h2 {\n    font-weight: 500;\n    letter-spacing: 0.15em;\n    margin-bottom: 1.5rem; }\n    @media (max-width: 34.375em) {\n      .contact-section h2 {\n        font-size: 1.2rem; } }\n  .contact-section button {\n    font-family: inherit;\n    padding: 0.5rem 1rem;\n    margin-top: 1.5rem;\n    letter-spacing: 0.15em;\n    color: #CCAB5B;\n    background: none;\n    border: 2px solid #CCAB5B;\n    font-size: 1rem;\n    cursor: pointer; }\n    .contact-section button:hover {\n      background-color: #CCAB5B;\n      color: #000; }\n    @media (max-width: 34.375em) {\n      .contact-section button {\n        font-size: 0.7rem; } }\n    @media (max-width: 21.875em) {\n      .contact-section button {\n        font-size: 0.5rem;\n        padding: 0.3rem 0.8rem; } }\n\n.map {\n  border-radius: 50%;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n  border: 3px solid #CCAB5B;\n  width: 30rem; }\n  @media (max-width: 69.375em) {\n    .map {\n      width: 20rem;\n      grid-column: span 2; } }\n  @media (max-width: 34.375em) {\n    .map {\n      width: 12rem; } }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  min-height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative;\n  animation: fadeIn .5s; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 34.375em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 34.375em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header.small {\n    font-size: 2rem;\n    margin-top: 2rem; }\n    @media (max-width: 56.25em) {\n      header.small {\n        font-size: 1.5rem;\n        margin-top: 0; } }\n    @media (max-width: 34.375em) {\n      header.small {\n        font-size: 1rem; } }\n    header.small .restaurant {\n      line-height: 3rem; }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 34.375em) {\n      header .restaurant {\n        line-height: 3rem; } }\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n.contact-main {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: fadeIn .5s; }\n  @media (max-width: 69.375em) {\n    .contact-main {\n      display: grid;\n      grid-template-columns: repeat(2, 1fr);\n      justify-items: center; } }\n\n.contact-section {\n  text-align-last: left;\n  margin: 3rem;\n  font-weight: 500;\n  font-size: 1.3rem;\n  grid-row: 1 / 2; }\n  @media (max-width: 69.375em) {\n    .contact-section {\n      margin: 1rem;\n      margin-top: 2rem; } }\n  @media (max-width: 34.375em) {\n    .contact-section {\n      font-size: 0.9rem; } }\n  @media (max-width: 21.875em) {\n    .contact-section {\n      font-size: 0.6rem;\n      margin: 0.4rem; } }\n  .contact-section h2 {\n    font-weight: 500;\n    letter-spacing: 0.15em;\n    margin-bottom: 1.5rem; }\n    @media (max-width: 34.375em) {\n      .contact-section h2 {\n        font-size: 1.2rem; } }\n  .contact-section button {\n    font-family: inherit;\n    padding: 0.5rem 1rem;\n    margin-top: 1.5rem;\n    letter-spacing: 0.15em;\n    color: #CCAB5B;\n    background: none;\n    border: 2px solid #CCAB5B;\n    font-size: 1rem;\n    cursor: pointer; }\n    .contact-section button:hover {\n      background-color: #CCAB5B;\n      color: #000; }\n    @media (max-width: 34.375em) {\n      .contact-section button {\n        font-size: 0.7rem; } }\n    @media (max-width: 21.875em) {\n      .contact-section button {\n        font-size: 0.5rem;\n        padding: 0.3rem 0.8rem; } }\n\n.map {\n  border-radius: 50%;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n  border: 3px solid #CCAB5B;\n  width: 30rem; }\n  @media (max-width: 69.375em) {\n    .map {\n      width: 20rem;\n      grid-column: span 2; } }\n  @media (max-width: 34.375em) {\n    .map {\n      width: 12rem; } }\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39,7 +39,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  f
   \*****************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /*
@@ -151,7 +150,6 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (url, options) {
@@ -190,7 +188,6 @@ module.exports = function (url, options) {
   \**************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (i) {
@@ -205,7 +202,6 @@ module.exports = function (i) {
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -260,7 +256,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var stylesInDOM = [];
@@ -374,7 +369,6 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var memo = {};
@@ -423,7 +417,6 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -444,7 +437,6 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -466,7 +458,6 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -546,7 +537,6 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -572,7 +562,6 @@ module.exports = styleTagTransform;
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createLogo)
@@ -602,7 +591,6 @@ function createLogo(size) {
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createNav)
@@ -641,7 +629,6 @@ function createNav() {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createContact)
@@ -716,7 +703,6 @@ function createContact() {
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createHome)
@@ -738,9 +724,21 @@ function createHome() {
 /*!***************************!*\
   !*** ./src/pages/menu.js ***!
   \***************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ createContact)
+/* harmony export */ });
+/* harmony import */ var _modules_logo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/logo */ "./src/modules/logo.js");
+/* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/nav */ "./src/modules/nav.js");
 
 
+
+function createContact() {
+  (0,_modules_nav__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  (0,_modules_logo__WEBPACK_IMPORTED_MODULE_0__["default"])('small');
+}
 
 /***/ }),
 
@@ -750,7 +748,6 @@ function createHome() {
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
 
 /***/ }),
@@ -761,7 +758,6 @@ module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "04e49a74e2f7ad6b31a6.jpg";
 
 /***/ })
@@ -901,16 +897,14 @@ module.exports = __webpack_require__.p + "04e49a74e2f7ad6b31a6.jpg";
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/home */ "./src/pages/home.js");
 /* harmony import */ var _pages_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/menu */ "./src/pages/menu.js");
-/* harmony import */ var _pages_menu__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_pages_menu__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _pages_contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/contact */ "./src/pages/contact.js");
 /* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sass/main.scss */ "./src/sass/main.scss");
 
@@ -928,8 +922,13 @@ document.body.addEventListener('click', e => {
   ) {
     content.innerHTML = '';
     (0,_pages_home__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  }
-  if (
+  } else if (
+    e.target.id === 'menu' &&
+    !e.target.parentNode.nextSibling.classList.contains('small')
+  ) {
+    content.innerHTML = '';
+    (0,_pages_menu__WEBPACK_IMPORTED_MODULE_1__["default"])();
+  } else if (
     e.target.id === 'contact' &&
     !e.target.parentNode.nextSibling.classList.contains('medium')
   ) {
