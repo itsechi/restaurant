@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  min-height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative;\n  animation: fadeIn .5s; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 34.375em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 34.375em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header.small {\n    font-size: 2rem;\n    margin-top: 2rem; }\n    @media (max-width: 56.25em) {\n      header.small {\n        font-size: 1.5rem;\n        margin-top: 0; } }\n    @media (max-width: 34.375em) {\n      header.small {\n        font-size: 1rem; } }\n    header.small .restaurant {\n      line-height: 3rem; }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 34.375em) {\n      header .restaurant {\n        line-height: 3rem; } }\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n.contact-main {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: fadeIn .5s; }\n  @media (max-width: 69.375em) {\n    .contact-main {\n      display: grid;\n      grid-template-columns: repeat(2, 1fr);\n      justify-items: center; } }\n\n.contact-section {\n  text-align-last: left;\n  margin: 3rem;\n  font-weight: 500;\n  font-size: 1.3rem;\n  grid-row: 1 / 2; }\n  @media (max-width: 69.375em) {\n    .contact-section {\n      margin: 1rem;\n      margin-top: 2rem; } }\n  @media (max-width: 34.375em) {\n    .contact-section {\n      font-size: 0.9rem; } }\n  @media (max-width: 21.875em) {\n    .contact-section {\n      font-size: 0.6rem;\n      margin: 0.4rem; } }\n  .contact-section h2 {\n    font-weight: 500;\n    letter-spacing: 0.15em;\n    margin-bottom: 1.5rem; }\n    @media (max-width: 34.375em) {\n      .contact-section h2 {\n        font-size: 1.2rem; } }\n  .contact-section button {\n    font-family: inherit;\n    padding: 0.5rem 1rem;\n    margin-top: 1.5rem;\n    letter-spacing: 0.15em;\n    color: #CCAB5B;\n    background: none;\n    border: 2px solid #CCAB5B;\n    font-size: 1rem;\n    cursor: pointer; }\n    .contact-section button:hover {\n      background-color: #CCAB5B;\n      color: #000; }\n    @media (max-width: 34.375em) {\n      .contact-section button {\n        font-size: 0.7rem; } }\n    @media (max-width: 21.875em) {\n      .contact-section button {\n        font-size: 0.5rem;\n        padding: 0.3rem 0.8rem; } }\n\n.map {\n  border-radius: 50%;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n  border: 3px solid #CCAB5B;\n  width: 30rem; }\n  @media (max-width: 69.375em) {\n    .map {\n      width: 20rem;\n      grid-column: span 2; } }\n  @media (max-width: 34.375em) {\n    .map {\n      width: 12rem; } }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  min-height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative;\n  animation: fadeIn .5s; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 34.375em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 34.375em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header.small {\n    font-size: 2rem;\n    margin-top: 2rem; }\n    @media (max-width: 56.25em) {\n      header.small {\n        font-size: 1.5rem;\n        margin-top: 0; } }\n    @media (max-width: 34.375em) {\n      header.small {\n        font-size: 1rem; } }\n    header.small .restaurant {\n      line-height: 3rem; }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 34.375em) {\n      header .restaurant {\n        line-height: 3rem; } }\n\n@keyframes fadeIn {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n.contact-main {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: fadeIn .5s; }\n  @media (max-width: 69.375em) {\n    .contact-main {\n      display: grid;\n      grid-template-columns: repeat(2, 1fr);\n      justify-items: center; } }\n\n.contact-section {\n  text-align-last: left;\n  margin: 3rem;\n  font-weight: 500;\n  font-size: 1.3rem;\n  grid-row: 1 / 2; }\n  @media (max-width: 69.375em) {\n    .contact-section {\n      margin: 1rem;\n      margin-top: 2rem; } }\n  @media (max-width: 34.375em) {\n    .contact-section {\n      font-size: 0.9rem; } }\n  @media (max-width: 21.875em) {\n    .contact-section {\n      font-size: 0.6rem;\n      margin: 0.4rem; } }\n  .contact-section h2 {\n    font-weight: 500;\n    letter-spacing: 0.15em;\n    margin-bottom: 1.5rem; }\n    @media (max-width: 34.375em) {\n      .contact-section h2 {\n        font-size: 1.2rem; } }\n  .contact-section button {\n    font-family: inherit;\n    padding: 0.5rem 1rem;\n    margin-top: 1.5rem;\n    letter-spacing: 0.15em;\n    color: #CCAB5B;\n    background: none;\n    border: 2px solid #CCAB5B;\n    font-size: 1rem;\n    cursor: pointer; }\n    .contact-section button:hover {\n      background-color: #CCAB5B;\n      color: #000; }\n    @media (max-width: 34.375em) {\n      .contact-section button {\n        font-size: 0.7rem; } }\n    @media (max-width: 21.875em) {\n      .contact-section button {\n        font-size: 0.5rem;\n        padding: 0.3rem 0.8rem; } }\n\n.map {\n  border-radius: 50%;\n  margin-top: 3rem;\n  margin-bottom: 1rem;\n  border: 3px solid #CCAB5B;\n  width: 30rem; }\n  @media (max-width: 69.375em) {\n    .map {\n      width: 20rem;\n      grid-column: span 2; } }\n  @media (max-width: 34.375em) {\n    .map {\n      width: 12rem; } }\n\n.menu-main .item-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 2rem; }\n\n.menu-main .item-text {\n  text-align: left;\n  margin: 2rem;\n  font-weight: 500;\n  letter-spacing: .15em; }\n\n.menu-main .item-header {\n  display: flex;\n  justify-content: space-between; }\n\n.menu-main h4 {\n  font-size: 1.5rem;\n  letter-spacing: .15em;\n  font-weight: 700;\n  margin-bottom: 1rem; }\n\n.menu-main .item-price {\n  color: #CCAB5B; }\n\n.menu-main .item-description {\n  max-width: 40rem; }\n\n.menu-main img {\n  box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);\n  border-radius: 50%; }\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -732,13 +732,92 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _modules_logo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/logo */ "./src/modules/logo.js");
 /* harmony import */ var _modules_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/nav */ "./src/modules/nav.js");
+/* harmony import */ var _imgs_menu_1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../imgs/menu-1.png */ "./src/imgs/menu-1.png");
+/* harmony import */ var _imgs_menu_2_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../imgs/menu-2.png */ "./src/imgs/menu-2.png");
+/* harmony import */ var _imgs_menu_3_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../imgs/menu-3.png */ "./src/imgs/menu-3.png");
+
+
+
 
 
 
 function createContact() {
   (0,_modules_nav__WEBPACK_IMPORTED_MODULE_1__["default"])();
   (0,_modules_logo__WEBPACK_IMPORTED_MODULE_0__["default"])('small');
+  const content = document.getElementById('content');
+  const main = document.createElement('main');
+  main.classList.add('menu-main');
+  content.appendChild(main);
+
+  // create a new menu item
+  class Item {
+    constructor(title, price, description, image) {
+      this.title = title;
+      this.price = price;
+      this.description = description;
+      this.image = image;
+    }
+  }
+
+  const item1 = new Item(
+    'LOREM IPSUM',
+    '$2.40',
+    'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.',
+    _imgs_menu_1_png__WEBPACK_IMPORTED_MODULE_2__
+  );
+
+  const item2 = new Item(
+    'LOREM IPSUM',
+    '$2.40',
+    'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.',
+    _imgs_menu_2_png__WEBPACK_IMPORTED_MODULE_3__
+  );
+
+  const item3 = new Item(
+    'LOREM IPSUM',
+    '$2.40',
+    'Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.',
+    _imgs_menu_3_png__WEBPACK_IMPORTED_MODULE_4__
+  );
+
+  const menuItems = [item1, item2, item3];
+
+  function displayItems() {
+    menuItems.forEach(item => {
+      const itemContainer = document.createElement('section');
+      itemContainer.classList.add('item-container');
+      main.appendChild(itemContainer);
+
+      const itemText = document.createElement('div');
+      itemText.classList.add('item-text');
+      itemContainer.appendChild(itemText);
+
+      const itemHeader = document.createElement('div');
+      itemHeader.classList.add('item-header');
+      itemText.appendChild(itemHeader);
+
+      const itemTitle = document.createElement('h4');
+      itemTitle.textContent = item.title;
+      itemHeader.appendChild(itemTitle);
+
+      const itemPrice = document.createElement('h4');
+      itemPrice.classList.add('item-price');
+      itemPrice.textContent = item.price;
+      itemHeader.appendChild(itemPrice);
+
+      const itemDescription = document.createElement('p');
+      itemDescription.classList.add('item-description');
+      itemDescription.textContent = item.description;
+      itemText.appendChild(itemDescription);
+
+      const itemImg = document.createElement('img');
+      itemImg.src = item.image;
+      itemContainer.appendChild(itemImg);
+    });
+  }
+  displayItems();
 }
+
 
 /***/ }),
 
@@ -759,6 +838,36 @@ module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "04e49a74e2f7ad6b31a6.jpg";
+
+/***/ }),
+
+/***/ "./src/imgs/menu-1.png":
+/*!*****************************!*\
+  !*** ./src/imgs/menu-1.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "c0c25a97f6045c9c4d8e.png";
+
+/***/ }),
+
+/***/ "./src/imgs/menu-2.png":
+/*!*****************************!*\
+  !*** ./src/imgs/menu-2.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "aec72491ad7932903a95.png";
+
+/***/ }),
+
+/***/ "./src/imgs/menu-3.png":
+/*!*****************************!*\
+  !*** ./src/imgs/menu-3.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5b4476ba8959cc6d6d3d.png";
 
 /***/ })
 
