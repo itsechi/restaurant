@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  width: 100vw;\n  min-height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 31.25em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 31.25em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 31.25em) {\n      header .restaurant {\n        line-height: 3rem; } }\n\n.map {\n  border-radius: 50%; }\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n  box-sizing: border-box;\n  font-size: 100%; }\n\n*,\n*::before,\n*::after {\n  box-sizing: inherit;\n  margin: 0;\n  padding: 0; }\n\nbody {\n  min-height: 100vh;\n  font-family: 'League Spartan', sans-serif;\n  font-weight: 700;\n  color: #fff;\n  text-align: center;\n  background-color: #1B191A;\n  position: relative;\n  display: flex;\n  justify-content: center; }\n  body::before {\n    content: '';\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center/cover;\n    z-index: -1;\n    opacity: 0.4; }\n\nnav {\n  margin: 1.5rem; }\n  nav button {\n    margin: 0 1rem;\n    background: none;\n    outline: none;\n    border: none;\n    font-family: inherit;\n    font-size: 1rem;\n    color: #fff;\n    letter-spacing: 0.15em;\n    cursor: pointer; }\n    nav button:hover {\n      color: #CCAB5B; }\n\nheader {\n  position: relative; }\n  header.large {\n    font-size: 5rem;\n    top: 15%; }\n    @media (max-width: 56.25em) {\n      header.large {\n        font-size: 3rem; } }\n    @media (max-width: 34.375em) {\n      header.large {\n        font-size: 2rem; } }\n  header.medium {\n    font-size: 3rem;\n    top: 0;\n    margin-top: 3rem; }\n    @media (max-width: 56.25em) {\n      header.medium {\n        font-size: 2rem; } }\n    @media (max-width: 34.375em) {\n      header.medium {\n        font-size: 1.5rem; } }\n  header .restaurant {\n    font-family: 'Sacramento', cursive;\n    font-weight: 400;\n    color: #CCAB5B;\n    line-height: 5rem; }\n    @media (max-width: 56.25em) {\n      header .restaurant {\n        line-height: 4rem; } }\n    @media (max-width: 34.375em) {\n      header .restaurant {\n        line-height: 3rem; } }\n\n.contact-main {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative; }\n\n.contact-section {\n  text-align-last: left;\n  margin: 3rem;\n  font-weight: 500;\n  font-size: 1.3rem; }\n  @media (max-width: 69.375em) {\n    .contact-section {\n      margin: 1rem;\n      margin-top: 2rem; } }\n  @media (max-width: 34.375em) {\n    .contact-section {\n      font-size: 0.9rem; } }\n  @media (max-width: 21.875em) {\n    .contact-section {\n      font-size: 0.6rem;\n      margin: 0.4rem; } }\n  .contact-section h2 {\n    font-weight: 500;\n    letter-spacing: 0.15em;\n    margin-bottom: 1.5rem; }\n    @media (max-width: 34.375em) {\n      .contact-section h2 {\n        font-size: 1.2rem; } }\n  .contact-section button {\n    font-family: inherit;\n    padding: 0.5rem 1rem;\n    margin-top: 1.5rem;\n    letter-spacing: 0.15em;\n    color: #CCAB5B;\n    background: none;\n    border: 2px solid #CCAB5B;\n    font-size: 1rem;\n    cursor: pointer; }\n    .contact-section button:hover {\n      background-color: #CCAB5B;\n      color: #000; }\n    @media (max-width: 34.375em) {\n      .contact-section button {\n        font-size: 0.7rem; } }\n    @media (max-width: 21.875em) {\n      .contact-section button {\n        font-size: 0.5rem;\n        padding: 0.3rem 0.8rem; } }\n\n.map {\n  border-radius: 50%;\n  margin-top: 3rem;\n  border: 3px solid #CCAB5B;\n  width: 30rem; }\n  @media (max-width: 69.375em) {\n    .map {\n      position: absolute;\n      top: 80%;\n      width: 20rem; } }\n  @media (max-width: 34.375em) {\n    .map {\n      width: 12rem; } }\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -658,13 +658,54 @@ function createContact() {
   (0,_modules_logo__WEBPACK_IMPORTED_MODULE_0__["default"])('medium');
 
   const content = document.getElementById('content');
-  const map = document.createElement('div');
-  
+
+  const main = document.createElement('main');
+  main.classList.add('contact-main');
+  content.appendChild(main);
+
+  /* contact section */
+  const contactSection = document.createElement('section');
+  contactSection.classList.add('contact-section');
+  main.appendChild(contactSection);
+  const contactHeader = document.createElement('h2');
+  contactHeader.textContent = 'CONTACT US';
+  const contactNumber = document.createElement('p');
+  contactNumber.textContent = '+1 582-201-7138';
+  const contactEmail = document.createElement('p');
+  contactEmail.textContent = 'purecove@restaurant.com';
+  const contactBtn = document.createElement('button');
+  contactBtn.textContent = 'CONTACT FORM';
+
+  contactSection.appendChild(contactHeader);
+  contactSection.appendChild(contactNumber);
+  contactSection.appendChild(contactEmail);
+  contactSection.appendChild(contactBtn);
+
+  /* map section */
+  const map = document.createElement('img');
+  map.src = _imgs_map_jpg__WEBPACK_IMPORTED_MODULE_2__;
+  map.alt = 'location of the restaurant';
   map.classList.add('map');
-  content.appendChild(map);
+  main.appendChild(map);
+
+  /* address section */
+  const addressSection = document.createElement('section');
+  addressSection.classList.add('contact-section');
+  main.appendChild(addressSection);
+  const addressHeader = document.createElement('h2');
+  addressHeader.textContent = 'ADDRESS';
+  const address1 = document.createElement('p');
+  address1.textContent = '85 South 9th Street';
+  const address2 = document.createElement('p');
+  address2.textContent = 'Brooklyn, NY';
+  const addressBtn = document.createElement('button');
+  addressBtn.textContent = 'BOOK A TABLE';
+
+  addressSection.appendChild(addressHeader);
+  addressSection.appendChild(address1);
+  addressSection.appendChild(address2);
+  addressSection.appendChild(addressBtn);
 }
-
-
 
 
 /***/ }),
@@ -721,7 +762,7 @@ module.exports = __webpack_require__.p + "eb638892172f0b328aac.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "ea698f7e8cff2a62cd4c.jpg";
+module.exports = __webpack_require__.p + "04e49a74e2f7ad6b31a6.jpg";
 
 /***/ })
 

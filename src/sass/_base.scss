@@ -1,8 +1,10 @@
 $color-bg: #1B191A;
 $color-gold: #CCAB5B;
 
+$breakpoint-large: 69.375em;
 $breakpoint-medium: 56.25em;
-$breakpoint-small: 31.25em;
+$breakpoint-small: 34.375em;
+$breakpoint-xsmall: 21.875em;
 
 html {
   box-sizing: border-box;
@@ -18,7 +20,6 @@ html {
 }
 
 body {
-  width: 100vw;
   min-height: 100vh;
   font-family: 'League Spartan', sans-serif;
   font-weight: 700;
@@ -28,6 +29,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
+  
 
   &::before {
     content: '';

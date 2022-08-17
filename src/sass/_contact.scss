@@ -1,7 +1,13 @@
 .contact-main {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+  @media (max-width: $breakpoint-large) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }
 
 .contact-section {
@@ -9,11 +15,30 @@
   margin: 3rem;
   font-weight: 500;
   font-size: 1.3rem;
+  grid-row: 1 / 2;
+
+  @media (max-width: $breakpoint-large) {
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: $breakpoint-small) {
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: $breakpoint-xsmall) {
+    font-size: 0.6rem;
+    margin: 0.4rem;
+  }
 
   & h2 {
     font-weight: 500;
     letter-spacing: 0.15em;
     margin-bottom: 1.5rem;
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 1.2rem;
+    }
   }
 
   & button {
@@ -31,12 +56,31 @@
       background-color: $color-gold;
       color: #000;
     }
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 0.7rem;
+    }
+
+    @media (max-width: $breakpoint-xsmall) {
+      font-size: 0.5rem;
+      padding: 0.3rem 0.8rem;
+    }
   }
 }
 
 .map {
   border-radius: 50%;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   border: 3px solid $color-gold;
-  width: MIN(90vw, 30rem);
+  width: 30rem;
+
+  @media (max-width: $breakpoint-large) {
+    width: 20rem;
+    grid-column: span 2
+  }
+
+  @media (max-width: $breakpoint-small) {
+    width: 12rem;
+  }
 }
