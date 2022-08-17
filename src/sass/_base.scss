@@ -29,7 +29,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  
+
 
   &::before {
     content: '';
@@ -90,6 +90,25 @@ header {
 
     @media (max-width: $breakpoint-small) {
       font-size: 1.5rem;
+    }
+  }
+
+  &.small {
+    font-size: 2rem;
+    margin-top: 2rem;
+
+    @media (max-width: $breakpoint-medium) {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    @media (max-width: $breakpoint-small) {
+      font-size: 1rem;
+
+    }
+
+    & .restaurant {
+      line-height: 3rem;
     }
   }
 

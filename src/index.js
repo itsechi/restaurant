@@ -13,8 +13,13 @@ document.body.addEventListener('click', e => {
   ) {
     content.innerHTML = '';
     createHome();
-  }
-  if (
+  } else if (
+    e.target.id === 'menu' &&
+    !e.target.parentNode.nextSibling.classList.contains('small')
+  ) {
+    content.innerHTML = '';
+    createMenu();
+  } else if (
     e.target.id === 'contact' &&
     !e.target.parentNode.nextSibling.classList.contains('medium')
   ) {
