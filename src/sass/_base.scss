@@ -64,6 +64,7 @@ nav {
 
 header {
   position: relative;
+  animation: fadeIn .5s;
 
   &.large {
     font-size: 5rem;
@@ -105,5 +106,16 @@ header {
     @media (max-width: $breakpoint-small) {
       line-height: 3rem;
     }
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
