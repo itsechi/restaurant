@@ -63,6 +63,10 @@ export default function createContact() {
       itemTitle.textContent = item.title;
       itemHeader.appendChild(itemTitle);
 
+      const itemDeco = document.createElement('div');
+      itemDeco.classList.add('item-deco');
+      itemHeader.appendChild(itemDeco);
+
       const itemPrice = document.createElement('h4');
       itemPrice.classList.add('item-price');
       itemPrice.textContent = item.price;
