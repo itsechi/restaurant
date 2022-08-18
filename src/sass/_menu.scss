@@ -6,6 +6,11 @@
     align-items: center;
     justify-content: center;
     margin: 2rem;
+
+    @media (max-width: $breakpoint-small) {
+      flex-direction: column;
+      margin: 1rem;
+    }
   }
 
   & .item-text {
@@ -13,6 +18,18 @@
     margin: 2rem;
     font-weight: 500;
     letter-spacing: .15em;
+
+    @media (max-width: $breakpoint-medium) {
+      font-size: .9rem;
+    }
+
+    @media (max-width: $breakpoint-small) {
+      margin: 0;
+    }
+
+    @media (max-width: $breakpoint-xsmall) {
+      font-size: .7rem;
+    }
   }
 
   & .item-header {
@@ -20,12 +37,25 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+
+    @media (max-width: $breakpoint-medium) {
+      margin-bottom: .7rem;
+    }
   }
 
   & h4 {
     font-size: 1.5rem;
     letter-spacing: .15em;
     font-weight: 700;
+    white-space: nowrap;
+
+    @media (max-width: $breakpoint-medium) {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: $breakpoint-xsmall) {
+      font-size: .9rem;
+    }
   }
 
   & .item-price {
@@ -39,6 +69,14 @@
   & img {
     box-shadow: 0px 4px 10px 10px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
+
+    @media (max-width: $breakpoint-medium) {
+      width: 100px;
+    }
+
+    @media (max-width: $breakpoint-small) {
+      margin: 1rem;
+    }
   }
 
   & .item-deco {
@@ -47,6 +85,14 @@
     background-color: $color-gold;
     margin: 0 2rem;
     position: relative;
+
+    @media (max-width: $breakpoint-medium) {
+      width: 100%;
+    }
+
+    @media (max-width: $breakpoint-xsmall) {
+      margin: 0 1.5rem;
+    }
 
     &::before {
       content: '';
@@ -57,6 +103,11 @@
       left: 0;
       transform: translate(-100%, -50%);
       border-radius: 50%;
+
+      @media (max-width: $breakpoint-medium) {
+        width: 1rem;
+        height: 1rem;
+      }
     }
 
     &::after {
@@ -68,6 +119,11 @@
       right: 0;
       transform: translate(100%, -50%);
       border-radius: 50%;
+
+      @media (max-width: $breakpoint-medium) {
+        width: 1rem;
+        height: 1rem;
+      }
     }
   }
 }
